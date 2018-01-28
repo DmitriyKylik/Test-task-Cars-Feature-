@@ -1,0 +1,232 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>The HTML5 Herald</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">	
+  <link rel="stylesheet" href="style/normalize.css">
+  <link rel="stylesheet" href="style/style.css">
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <!--[if lt IE 9]>
+ <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>  
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <img class="header_logo" src="img/glyph-icons/logo.png" alt="error"/>
+      <h1 class="header_title">Цены и варианты защиты</h1>
+    </header>
+    <section class="main-content">
+    <article class="main-content_car-class">
+      <ul class="car-class_list">
+        <li class="car-class_item" >
+          <h3 class="car-class_title">КЛАСС MINI *</h3>
+          <div class="car-class_cars">
+            <img src="img/citroen/clean.jpg" alt="error" class="car-class-picture">
+          </div>
+          <div class="cost-calc" data-car='citroen/'>
+            <a href="#" class="cost-calc_link">РАССЧИТАТЬ СТОИМОСТЬ</a>
+            <div class="cost-calc_triangle-buttom">
+              <img class="triangle-buttom_picture" src="img/glyph-icons/triangle-bottom-red.png" alt="error">
+            </div>
+          </div>
+        </li>
+        <li class="car-class_item">
+          <h3 class="car-class_title">СРЕДНИЙ КЛАСС *</h3>
+          <div class="car-class_cars">
+            <img src="img/mazda/clean.jpg" alt="error" class="car-class-picture">
+          </div>
+          <div class="cost-calc" data-car='mazda/'>
+            <a href="#" class="cost-calc_link">РАССЧИТАТЬ СТОИМОСТЬ</a>
+            <div class="cost-calc_triangle-buttom">
+              <img class="triangle-buttom_picture" src="img/glyph-icons/triangle-bottom-red.png" alt="error">
+            </div>
+          </div>
+        </li>
+        <li class="car-class_item">
+          <h3 class="car-class_title">PREMIUM КЛАСС *</h3>
+          <div class="car-class_cars">
+            <img src="img/mercedez/clean.jpg" alt="error" class="car-class-picture">
+          </div>
+          <div class="cost-calc" data-car='mercedez/'>
+            <a href="#" class="cost-calc_link">РАССЧИТАТЬ СТОИМОСТЬ</a>
+            <div class="cost-calc_triangle-buttom">
+              <img class="triangle-buttom_picture active" src="img/glyph-icons/triangle-bottom-red.png" alt="error">
+            </div>
+          </div>
+        </li>
+      </ul>
+    </article>
+    <article class="main-content_plan-view">
+      <div class="main-content_view">
+        <div class="view_car-view">
+          <img class="car_view_img" src="img/mercedez/basicDplus.jpg" alt="error">
+        </div>
+        <div class="view_parts">
+          <ul class="view_list">
+            <li class="view_item" data-part="rear-bumper">
+              <div class="item_img-wrap">
+                <img class="view_part"  src="img/parts-icons/rear-bumper.png" alt="error">
+              </div>
+              <div class="part_signature">
+                <p class="part_signature-text">задний<br>бампер</p>
+              </div>
+            </li>
+            <li class="view_item" data-part="door-knob">
+              <div class="item_img-wrap">
+                <img class="view_part"  src="img/parts-icons/door-knob.png" alt="error">
+              </div>
+              <div class="part_signature">
+                <p class="part_signature-text">ручки</p>
+              </div>
+            </li>
+            <li class="view_item" data-part="door-part">
+              <div class="item_img-wrap">
+                <img class="view_part"  src="img/parts-icons/door-part.png" alt="error">
+              </div>
+              <div class="part_signature">
+                <p class="part_signature-text">двери</p>
+              </div>
+            </li>
+            <li class="view_item" data-part="fog-lights">
+              <div class="item_img-wrap">
+                <img class="view_part"  src="img/parts-icons/fog-lights.png" alt="error">
+              </div>
+              <div class="part_signature">
+                <p class="part_signature-text">противотуманки</p>
+              </div>
+            </li>
+            <li class="view_item" data-part="front-bumper">
+              <div class="item_img-wrap">
+                <img class="view_part"  src="img/parts-icons/front-bumper.png" alt="error">
+              </div>
+              <div class="part_signature">
+                <p class="part_signature-text">передний<br>бампер</p>
+              </div>
+            </li>
+            <li class="view_item" data-part="hood-part">
+              <div class="item_img-wrap">
+                <img class="view_part"  src="img/parts-icons/hood-part.png" alt="error">
+              </div>
+              <div class="part_signature">
+                <p class="part_signature-text">часть<br>капота</p>
+              </div>
+            </li>
+            <li class="view_item" data-part="hood">
+              <div class="item_img-wrap">
+                <img class="view_part"  src="img/parts-icons/hood.png" alt="error">
+              </div>
+              <div class="part_signature">
+                <p class="part_signature-text">капот<br>полностью</p>
+              </div>
+            </li>
+           <li class="view_item" data-part="lights">
+             <div class="item_img-wrap">
+               <img class="view_part"  src="img/parts-icons/lights.png" alt="error">
+             </div>
+             <div class="part_signature">
+                <p class="part_signature-text">фары</p>
+              </div>
+           </li>
+           <li class="view_item" data-part="mirror">
+             <div class="item_img-wrap">
+                <img class="view_part"  src="img/parts-icons/mirror.png" alt="error">
+              </div>
+             <div class="part_signature">
+                <p class="part_signature">зеркала</p>
+              </div>
+           </li>
+           <li class="view_item" data-part="thresholds">
+             <div class="item_img-wrap">
+                <img class="view_part"  src="img/parts-icons/thresholds.png" alt="error">
+              </div>
+             <div class="part_signature">
+                <p class="part_signature">пороги<br>внутренние</p>
+              </div>
+           </li>
+           <li class="view_item" data-part="wing-part">
+             <div class="item_img-wrap">
+                <img class="view_part"  src="img/parts-icons/wing-part.png" alt="error">
+              </div>
+             <div class="part_signature">
+                <p class="part_signature">часть<br>крыльев</p>
+              </div>
+           </li>
+           <li class="view_item" data-part="wings">
+             <div class="item_img-wrap">
+                <img class="view_part"  src="img/parts-icons/wing.png" alt="error">
+              </div>
+            <div class="part_signature">
+                <p class="part_signature">крылья<br>полностью</p>
+              </div>
+           </li>
+          </ul>
+        </div>
+        <div class="view_price-sum">
+          <div class="view_price">
+            <p class="view_price-calc">ЦЕНА:</p>
+            <p class="view_text">Материалы + работа</p>
+            <p class="view_summ">7000руб.</p>
+          </div>
+          <button class="view_button">ПОЗВОНИТЕ МНЕ</button>
+        </div>
+      </div>
+      <div class="main-content_plan">
+        <ul class="plan_list">
+          <li class="plan_item" data-img="minimal">
+            <div class="plan_list-item_text-wrap"><p class="part-list_text">МИНИМАЛЬНЫЙ</p></div>
+          </li>
+          <li class="plan_item" data-img="basic">
+            <div class="plan_list-item_text-wrap"><p class="part-list_text">СТАНДАРТ</p></div>
+          </li>
+          <li class="plan_item" data-img="basicPlus">
+            <div class="plan_list-item_text-wrap"><p class="part-list_text">СТАНДАРТ+</p></div>
+          </li>
+          <li class="plan_item" data-img="basicDplus">
+            <div class="plan_list-item_text-wrap"><p class="part-list_text">СТАНДАРТ++</p></div>
+          </li>
+          <li class="plan_item" data-img="basicTrplus">
+            <div class="plan_list-item_text-wrap"><p class="part-list_text">СТАНДАРТ+++</p></div>
+          </li>
+          <li class="plan_item" data-img="whole">
+            <div class="plan_list-item_text-wrap"><p class="part-list_text">ЦЕЛИКОМ</p></div>
+          </li>
+          <li class="plan_item-drop-menu">
+            <div class="plan_list-item_drop-down"><p class="part-list_text">ЧАСТЯМИ</p></div>
+            <ul class="plan_part-list">
+              <li class="part-list_item" data-img="optics">
+                <div class="list-item_text-wrap"><p class="part-list_text">ОПТИКА</p></div>
+              </li>
+              <li class="part-list_item" data-img="thresholds-internal">
+                <div class="list-item_text-wrap"><p class="part-list_text">ПОРОГИ ВНУТРЕННИЕ</p></div>
+              </li>
+              <li class="part-list_item" data-img="thresholds-outdoor">
+                <div class="list-item_text-wrap"><p class="part-list_text">ПОРОГИ НАРУЖНЫЕ</p></div>
+              </li>
+              <li class="part-list_item" data-img="doors">
+                <div class="list-item_text-wrap"><p class="part-list_text">ДВЕРИ(4ШТ.)</p></div>
+              </li>
+              <li class="part-list_item" data-img="rear-wings">
+                <div class="list-item_text-wrap"><p class="part-list_text">ЗАДНИЕ КРЫЛЬЯ</p></div>
+              </li>
+              <li class="part-list_item" data-img="hood">
+                <div class="list-item_text-wrap"><p class="part-list_text">КАПОТ</p></div>
+              </li>
+              <li class="part-list_item" data-img="front-bumper">
+                <div class="list-item_text-wrap"><p class="part-list_text">ПЕРЕДНИЙ БАМПЕР</p></div>
+              </li>
+              <li class="part-list_item" data-img="rear-bumper">
+                <div class="list-item_text-wrap"><p class="part-list_text">ЗАДНИЙ БАМПЕР</p></div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </article>
+    </section>
+  </div>
+<script src="js/main.js"></script>
+</body>
+</html>
